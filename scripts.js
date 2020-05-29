@@ -1,8 +1,8 @@
-const api = require('./src/api')
+import api from './api'
 
 function App(){
     const repository = []
-    const formEl = document.querySelector('form')
+    const formEl = document.getElementById('repo-form')
     const inputEl = document.querySelector('input[name=repository]')
     const listEl = document.getElementById('repo-list')
 
