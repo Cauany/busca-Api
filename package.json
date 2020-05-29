@@ -4,13 +4,15 @@
   "description": "",
   "main": "scripts.js",
   "dependencies": {
+    "@babel/core": "^7.10.1",
+    "@babel/preset-env": "^7.10.1",
     "axios": "^0.19.2"
   },
   "devDependencies": {
     "nodemon": "^2.0.4"
   },
   "scripts": {
-    "start": "node scripts.js"
+    "start": "babel ./scripts.js -o bundle.js -w"
   },
   "repository": {
     "type": "git",
