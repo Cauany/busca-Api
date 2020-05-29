@@ -4,6 +4,7 @@
     border: none;
     font-family: sans-serif;
     color: black;
+    box-sizing: border-box;
 }
 
 body{
@@ -40,8 +41,22 @@ ul li img{
     border: none;
     border-radius: 50%;
     display: flex;
+    margin-bottom: 15px;
 }
 
 ul li strong, p, a{
     font-size: 18px;
+    margin-bottom: 10px;
+}
+
+ul li a{
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+ul li a:hover{
+    background-color: coral;
+    padding: 10px;
+    border-radius: 30px;
 }

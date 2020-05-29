@@ -2,9 +2,15 @@
   "name": "busca-api",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "scripts.js",
+  "dependencies": {
+    "axios": "^0.19.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node scripts.js"
   },
   "repository": {
     "type": "git",
@@ -16,11 +22,5 @@
   "bugs": {
     "url": "https://github.com/Cauany/busca-Api/issues"
   },
-  "homepage": "https://github.com/Cauany/busca-Api#readme",
-  "devDependencies": {
-    "nodemon": "^2.0.4"
-  },
-  "dependencies": {
-    "axios": "^0.19.2"
-  }
+  "homepage": "https://github.com/Cauany/busca-Api#readme"
 }
