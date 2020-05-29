@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    font-family: sans-serif;
+    color: black;
+}
+
+body{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+input, button{
+    padding: 20px;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 50px;
+    margin-right: 50px;
+    border-radius: 30px;
+    border: 2px solid rgb(54, 54, 54);
+}
+
+button{
+    cursor: pointer;
+    padding: 15px;
+    background-color: coral;
+}
+
+ul{
+    list-style: none;
+}
+
+ul li{
+    margin-bottom: 20px;
+}
+ul li img{
+    width: 100px;
+    height: 100px;
+    border: none;
+    border-radius: 50%;
+    display: flex;
+}
+
+ul li strong, p, a{
+    font-size: 18px;
+}
